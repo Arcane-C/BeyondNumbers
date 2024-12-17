@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Kamar-1
   m_EditorClassIdentifier: 
   sentences:
-  - text: Now, where do we start...
+  - text: Hmmm the room still look a bit messy lets do a little clean up shall we
     speaker: {fileID: 11400000, guid: 2c40845481652ab4e880ba164fbd013e, type: 2}
   background: {fileID: 6922663365743354263, guid: 413abb9ef69592d4c92a8c89e3c9062b, type: 3}
   nextScene: {fileID: 0}
