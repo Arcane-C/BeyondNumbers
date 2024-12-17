@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7a31b0227119814da94083869aaa1dc, type: 3}
   m_Name: Kamar-2
   m_EditorClassIdentifier: 
-  sentences: []
+  sentences: 
+  - text: That should do fine let rest shall we
+    speaker: {fileID: 11400000, guid: 2c40845481652ab4e880ba164fbd013e, type: 2}
   background: {fileID: -7033079393679002201, guid: 1863b6986072aa74790bd1acf1e8dc49, type: 3}
   nextScene: {fileID: 0}
