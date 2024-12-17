@@ -17,5 +17,5 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: 2c40845481652ab4e880ba164fbd013e, type: 2}
   - text: What's up yo yo
     speaker: {fileID: 11400000, guid: 42b982d6554f76c45a783fcb206b834d, type: 2}
-  background: {fileID: 0}
+  background: {fileID: -3969176337358222235, guid: 0c944fc6594a3b94aab6dfd69acbbd08, type: 3}
   nextScene: {fileID: 11400000, guid: ab91a8279f830ef4a9acbfd1bd4d98f5, type: 2}

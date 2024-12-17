@@ -16,4 +16,4 @@ MonoBehaviour:
   - text: Now, where do we start...
     speaker: {fileID: 11400000, guid: 2c40845481652ab4e880ba164fbd013e, type: 2}
   background: {fileID: 6922663365743354263, guid: 413abb9ef69592d4c92a8c89e3c9062b, type: 3}
-  nextScene: {fileID: 11400000, guid: 3ef7c51e56dc6e94b811178a4edab9c1, type: 2}
+  nextScene: {fileID: 0}

@@ -244,14 +244,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -3969176337358222235, guid: 0c944fc6594a3b94aab6dfd69acbbd08, type: 3}
+  m_Sprite: {fileID: -7033079393679002201, guid: 1863b6986072aa74790bd1acf1e8dc49, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -823,6 +823,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentScene: {fileID: 11400000, guid: 4ccaa18f5119f814c8c70c4247cf0fc3, type: 2}
   bottomBar: {fileID: 2116103403}
+  backgroundController: {fileID: 1890143812}
 --- !u!1 &845523360
 GameObject:
   m_ObjectHideFlags: 0
@@ -873,7 +874,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1044,6 +1045,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1890143810}
   - component: {fileID: 1890143811}
+  - component: {fileID: 1890143812}
   m_Layer: 5
   m_Name: Background
   m_TagString: Untagged
@@ -1068,10 +1070,10 @@ RectTransform:
   - {fileID: 419972614}
   m_Father: {fileID: 791108453}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: -872, y: -362}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1890143811
 Animator:
@@ -1095,6 +1097,22 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1890143812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1890143809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6d9de080d606e440b4f3963df85f305, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isSwitched: 0
+  background1: {fileID: 24532364}
+  background2: {fileID: 845523362}
+  animator: {fileID: 1890143811}
 --- !u!1 &2116103399
 GameObject:
   m_ObjectHideFlags: 0
