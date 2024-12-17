@@ -11,12 +11,42 @@ public class BottomBarController : MonoBehaviour
     private int sentenceIndex = -1;
     public StoryScene currentScene;
     private State state = State.COMPLETED;
+    private Animator animator;
+    private bool isHidden = false;
+
+    public Dictionary<Speaker, SpriteController> sprites;
+    public GameObject spritesPrefab;
 
     private enum State
     {
         PLAYING, COMPLETED
     }
+
+    private void Start()
+    {
+        sprites = new Dictionary<Speaker, SpriteController>();
+        animator = GetComponent<Animator>();
+    }
+
+    public void Hide()
+    {
+        if(!isHidden)
+        {
+            animator.SetTrigger("Hide");
+            isHidden = true;
+        }
+    }
+
+    public void Show()
+    {
+        animator.SetTrigger("Show");
+        isHidden = false;
+    }
     
+    public void ClearText()
+    {
+        barText.text = "";
+    }
     public void PlayScene(StoryScene scene)
     {
         currentScene = scene;
@@ -57,6 +87,24 @@ public class BottomBarController : MonoBehaviour
                 state = State.COMPLETED;
                 break; 
             }
+        }
+    }
+
+    private void ActSpeakers()
+    {
+        List<StoryScene.Sentence.Action> actions = currentScene.sentences[sentenceIndex].actions; 
+        for(int i = 0; i < actions.Count; i++)
+        {
+            ActSpeaker(actions[i]);
+        }
+    }
+
+    private void ActSpeaker(StoryScene.Sentence.Action action)
+    {
+        //SpriteController controller = null;
+        switch(action.actionType)
+        {
+            //case StoryScene.Sentence.Action.Type.APPEAR
         }
     }
 }

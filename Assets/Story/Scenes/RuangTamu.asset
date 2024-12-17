@@ -15,7 +15,19 @@ MonoBehaviour:
   sentences:
   - text: Hello, dad
     speaker: {fileID: 11400000, guid: 2c40845481652ab4e880ba164fbd013e, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 2c40845481652ab4e880ba164fbd013e, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 100, y: 0}
+      moveSpeed: 0
   - text: What's up yo yo
-    speaker: {fileID: 11400000, guid: 42b982d6554f76c45a783fcb206b834d, type: 2}
+    speaker: {fileID: 11400000, guid: 2c40845481652ab4e880ba164fbd013e, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 42b982d6554f76c45a783fcb206b834d, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 100, y: 0}
+      moveSpeed: 0
   background: {fileID: -3969176337358222235, guid: 0c944fc6594a3b94aab6dfd69acbbd08, type: 3}
   nextScene: {fileID: 11400000, guid: ab91a8279f830ef4a9acbfd1bd4d98f5, type: 2}

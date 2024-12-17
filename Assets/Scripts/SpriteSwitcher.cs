@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class BackgroundController : MonoBehaviour
+//EP03 minute 1:15
+public class SpriteSwitcher : MonoBehaviour
 {
     public bool isSwitched = false;
-    public Image background1;
-    public Image background2;
+    public Image image1;
+    public Image image2;
     
     public Animator animator;
 
@@ -15,12 +16,12 @@ public class BackgroundController : MonoBehaviour
     {
         if(!isSwitched)
         {
-            background2.sprite = sprite; 
+            image2.sprite = sprite; 
             animator.SetTrigger("SwitchFirst");
         }
         else
         {
-            background1.sprite = sprite; 
+            image1.sprite = sprite; 
             animator.SetTrigger("SwitchSecond");
         }
         isSwitched = !isSwitched;
@@ -30,13 +31,27 @@ public class BackgroundController : MonoBehaviour
     {
         if(!isSwitched)
         {
-            background2.sprite = sprite; 
+            image2.sprite = sprite; 
             //animator.SetTrigger("SwitchFirst");
         }
         else
         {
-            background1.sprite = sprite; 
+            image1.sprite = sprite; 
             //animator.SetTrigger("SwitchSecond");
+        }
+    }
+
+    public Sprite GetImage()
+    {
+        if(!isSwitched)
+        {
+            return image1.sprite; 
+            
+        }
+        else
+        {
+            return image2.sprite; 
+            
         }
     }
 }
