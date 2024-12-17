@@ -21,7 +21,95 @@ MonoBehaviour:
       actionType: 1
       coords: {x: 100, y: 0}
       moveSpeed: 0
-  - text: What's up yo yo
+  - text: Im coming home as i told u before in msg
+    speaker: {fileID: 11400000, guid: 2c40845481652ab4e880ba164fbd013e, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 2c40845481652ab4e880ba164fbd013e, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 100, y: 0}
+      moveSpeed: 0
+  - text: And yeah i take a break from college because of this matter can u help me on this dad
+    speaker: {fileID: 11400000, guid: 2c40845481652ab4e880ba164fbd013e, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 2c40845481652ab4e880ba164fbd013e, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 100, y: 0}
+      moveSpeed: 0
+  - text: Ok first of all welcome home son
+    speaker: {fileID: 11400000, guid: 2c40845481652ab4e880ba164fbd013e, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 42b982d6554f76c45a783fcb206b834d, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 100, y: 0}
+      moveSpeed: 0
+  - text: Here first you sit down and we will talk this slowly
+    speaker: {fileID: 11400000, guid: 2c40845481652ab4e880ba164fbd013e, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 42b982d6554f76c45a783fcb206b834d, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 100, y: 0}
+      moveSpeed: 0
+  - text: About what u want to ask we can talk that tommorow how about we talk about other stuff first
+    speaker: {fileID: 11400000, guid: 2c40845481652ab4e880ba164fbd013e, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 42b982d6554f76c45a783fcb206b834d, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 100, y: 0}
+      moveSpeed: 0
+  - text: Alright i guess anyway what u want talk about dad
+    speaker: {fileID: 11400000, guid: 2c40845481652ab4e880ba164fbd013e, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 2c40845481652ab4e880ba164fbd013e, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 100, y: 0}
+      moveSpeed: 0
+  - text: Are u fine at college, did u have a lot of friend, are u being happy right now
+    speaker: {fileID: 11400000, guid: 2c40845481652ab4e880ba164fbd013e, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 42b982d6554f76c45a783fcb206b834d, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 100, y: 0}
+      moveSpeed: 0
+  - text: I think those question that u need to answer me first son
+    speaker: {fileID: 11400000, guid: 2c40845481652ab4e880ba164fbd013e, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 42b982d6554f76c45a783fcb206b834d, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 100, y: 0}
+      moveSpeed: 0
+  - text: Im fine at college, and yes i have a lot of friend, but on that part sometimes i happy sometimes im not because im kinda being bad boy these past semesters
+    speaker: {fileID: 11400000, guid: 2c40845481652ab4e880ba164fbd013e, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 2c40845481652ab4e880ba164fbd013e, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 100, y: 0}
+      moveSpeed: 0
+  - text: Alright then why dont u rest first go head to the old bedroom since ur bedroom probably not cleaned yet
+    speaker: {fileID: 11400000, guid: 2c40845481652ab4e880ba164fbd013e, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 42b982d6554f76c45a783fcb206b834d, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 100, y: 0}
+      moveSpeed: 0
+  - text: Ok dad see you tommorow
+    speaker: {fileID: 11400000, guid: 2c40845481652ab4e880ba164fbd013e, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 2c40845481652ab4e880ba164fbd013e, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 100, y: 0}
+      moveSpeed: 0
+  - text: See you tommorow son
     speaker: {fileID: 11400000, guid: 2c40845481652ab4e880ba164fbd013e, type: 2}
     actions:
     - speaker: {fileID: 11400000, guid: 42b982d6554f76c45a783fcb206b834d, type: 2}
